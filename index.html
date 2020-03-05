@@ -4,14 +4,15 @@
 		<style>
 			.header{
 				position: fixed;
-				height: 20vh;
+				margin: 8px;
+				height: 300px;
 				border: 1px solid red;
 				top: 0px;
 				left: 0px;
 				right: 0px;
 			}
 			.header-spacer{
-				height:20vh;
+				height:300px;
 			}
 			.container{
 				height:80vh;
@@ -24,6 +25,14 @@
 			.footer{
 				height:20vh;
 				border:1px solid green;
+			}
+			
+			@media ( max-width: 768px ) {
+				.container{
+					height:300px;
+					border:1px solid blue;
+					display:block;
+				}
 			}
 		</style>
 	</head>
@@ -60,12 +69,12 @@
 				</tr>
 			</table>
 			식단일기
-				- 그림파일 첨부
-				- 200자 이내의 내용
+				- 그림파일 첨부 <br />
+				- 200자 이내의 내용 <br />
 			<br />
 			운동일기
-				- 그림파일 첨부
-				- 200자 이내의 내용
+				- 그림파일 첨부 <br />
+				- 200자 이내의 내용 <br />
 			</div>
 			<div class="right">
 			라이트
