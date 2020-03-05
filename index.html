@@ -3,12 +3,20 @@
 	<head>
 		<style>
 			.header{
+				position: fixed;
+				height: 20vh;
+				border: 1px solid red;
+				top: 0px;
+				left: 0px;
+				right: 0px;
+			}
+			.header-spacer{
 				height:20vh;
-				border:1px solid red;	
 			}
 			.container{
 				height:60vh;
 				border:1px solid blue;
+				display:flex;
 			}
 			.footer{
 				height:20vh;
@@ -20,6 +28,7 @@
 		<div class="header">
 			헤더
 		</div>
+		<div class="header-spacer"></div>
 		<div class="container">
 			<div class="left">
 			래프트
@@ -62,7 +71,8 @@
 			
 		</div>
 		<div class="footer">
-			푸터
+			Email : siogemin@gmail.com
+			last update : 2020-03-05
 		</div>
 	</body>
 </html>
